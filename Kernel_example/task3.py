@@ -30,8 +30,9 @@ def main():
     
     #print accuracy
     print("Linear SVM Accuracy: ", accuracy_score(y,y_pred_linear))
-    print("Polynomial Kernel SVM Accuracy: ", accuracy_score(y,y_pred_linear))
-    print("RBF Kernel SVM Accuracy: ", accuracy_score(y,y_pred_linear))
+    print("Polynomial Kernel SVM Accuracy: ", accuracy_score(y,y_pred_poly))
+    print("RBF Kernel SVM Accuracy: ", accuracy_score(y,y_pred_rbf))
+
 
 if __name__=="__main__":
     main()
